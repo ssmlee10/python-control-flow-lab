@@ -226,7 +226,7 @@ def determine_season():
     else:
         season = 'Unknown'
 
-    print(f'{month_input} is in {season}.')
+    print(f'{month_input} {day} is in {season}.')
 
 # Call the function
 determine_season()
